@@ -1,0 +1,43 @@
+.top-right {
+  background-color: hsl(240, 100%, 5%);
+  color: hsl(36, 100%, 99%);
+  padding: 0.5rem 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+.top-right h1 {
+  color: hsl(35, 77%, 62%);
+  font-weight: 800;
+}
+
+.top-right h2 {
+  font-size: 1.35rem;
+  margin-bottom: 0;
+  cursor: pointer;
+  transition: ease 0.3s;
+}
+
+.top-right h2:hover {
+  color: hsl(35, 77%, 62%);
+}
+
+.top-right p {
+  line-height: 1.8;
+  color: hsl(233, 8%, 79%);
+  margin: 0.5rem 0;
+  font-size: 1.05rem;
+}
+
+.tiny-border {
+  border-top: 1px solid hsl(236, 13%, 42%);
+  border-bottom: 1px solid hsl(236, 13%, 42%);
+  margin: 2rem 0;
+  padding: 1rem 0;
+}
+
+@media (min-width: 75rem) {
+  .top-right {
+    margin: 0;
+  }
+}

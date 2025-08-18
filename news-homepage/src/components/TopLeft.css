@@ -1,0 +1,60 @@
+.top-left {
+  margin: 2rem 0;
+}
+
+.web3-image {
+  width: 100%;
+  height: auto;
+}
+
+.read-more-btn {
+  font-size: 24px;
+  font-weight: 700;
+  padding: 1rem 2rem;
+  background-color: hsl(5, 85%, 63%);
+  border: none;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: ease 1s;
+}
+
+.read-more-btn:hover {
+  background-color: hsl(240, 100%, 5%);
+  color: hsl(36, 100%, 99%);
+}
+
+.info {
+  margin-top: 1.3rem;
+}
+
+.info h1 {
+  font-weight: 800;
+  font-size: 2.75rem;
+  line-height: 1;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.info p {
+  color: hsl(236, 13%, 42%);
+  line-height: 1.8;
+  margin: 0.5rem 0;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+@media (min-width: 75rem) {
+  .top-left .info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .top-left {
+    margin: 0;
+  }
+
+  .top-left .info h1 {
+    font-size: 4rem;
+  }
+}
