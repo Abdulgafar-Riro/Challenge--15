@@ -1,25 +1,17 @@
 import React from "react";
 import "./TopLeft.css";
+import web3Desktop from "../assets/images/image-web-3-desktop.jpg";
+import web3Mobile from "../assets/images/image-web-3-mobile.jpg";
 
 function TopLeft() {
   return (
     <div className="top-left">
       <picture>
-        <source
-          media="(min-width: 1200px)"
-          srcset="../../src/assets/images/image-web-3-desktop.jpg"
-        />
-        <source
-          media="(max-width: 1200px)"
-          srcset="../../src/assets/images/image-web-3-mobile.jpg"
-        />
-
-        <img
-          src="../../src/assets/images/image-web-3-mobile.jpg"
-          alt="Web 3 image"
-          className="web3-image"
-        />
+        <source media="(min-width: 1200px)" srcSet={web3Desktop} />
+        <source media="(max-width: 1200px)" srcSet={web3Mobile} />
+        <img src={web3Mobile} alt="Web 3 image" className="web3-image" />
       </picture>
+
       <div className="info">
         <h1>The Bright Future of Web 3.0?</h1>
         <div className="info-left">
