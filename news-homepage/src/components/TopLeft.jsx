@@ -8,7 +8,7 @@ function TopLeft() {
     <div className="top-left">
       <picture>
         <source media="(min-width: 1200px)" srcSet={web3Desktop} />
-        <source media="(max-width: 1200px)" srcSet={web3Mobile} />
+
         <img src={web3Mobile} alt="Web 3 image" className="web3-image" />
       </picture>
 
