@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./NavBar.css";
-import web3Logo from "../../src/assets/images/logo.svg";
-import menuIcon from "../../src/assets/images/icon-menu.svg";
-import closeIcon from "../../src/assets/images/icon-menu-close.svg";
+import web3Logo from "../assets/images/logo.svg";
+import MenuIcon from "../assets/images/icon-menu.svg";
+import closeIcon from "../assets/images/icon-menu-close.svg";
 
 export default function NavBar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -10,15 +10,15 @@ export default function NavBar() {
   return (
     <header className="navbar">
       {/* Logo */}
-      <div className="web3-icon">
-        <img src={web3Logo} alt="WEB3 Icon" />
+      <div>
+        <img className="web3-icon" src={web3Logo} alt="WEB3 Icon" />
       </div>
 
       {!menuOpen && (
         <div>
           <img
             className="menu-icon"
-            src={menuIcon}
+            src={MenuIcon}
             alt="menu icon"
             onClick={() => setMenuOpen(true)}
             style={{ cursor: "pointer" }}

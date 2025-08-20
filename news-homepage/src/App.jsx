@@ -10,24 +10,24 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="main-container">
-      <div className="NavBars">
+    <main className="main-container">
+      <header className="NavBars">
         <NavBar />
-      </div>
+      </header>
 
-      <div className="container">
-        <div className="top">
+      <section className="container">
+        <article className="top">
           <TopLeft />
           <TopRight />
-        </div>
-        <div className="features">
+        </article>
+        <article className="features">
           <Feature1 />
           <Feature2 />
           <Feature3 />
-        </div>
+        </article>
         <Footer />
-      </div>
-    </div>
+      </section>
+    </main>
   );
 }
 

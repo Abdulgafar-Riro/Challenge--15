@@ -8,12 +8,13 @@
 }
 
 .read-more-btn {
-  font-size: 24px;
-  font-weight: 700;
-  padding: 1rem 2rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 1rem 3rem;
   background-color: hsl(5, 85%, 63%);
+  color: hsl(240, 100%, 5%);
   border: none;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   cursor: pointer;
   transition: ease 1s;
 }
